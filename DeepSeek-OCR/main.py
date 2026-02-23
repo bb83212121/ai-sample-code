@@ -8,7 +8,7 @@ os.environ["TRANSFORMERS_OFFLINE"] = "1"
 os.environ["CUDA_VISIBLE_DEVICES"] = '0'
 
 # Local path (MUST exist)
-model_name = 'D:\\ai\\models\\deepseek-ai--DeepSeek-OCR'
+model_name = 'D:/ai/models/deepseek-ai--DeepSeek-OCR'
 
 tokenizer = AutoTokenizer.from_pretrained(
     model_name,
