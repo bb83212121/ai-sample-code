@@ -29,7 +29,7 @@ model = model.eval().cuda().to(torch.bfloat16)
 
 # prompt = "<image>\nFree OCR. "
 prompt = "<image>\n<|grounding|>Convert the document to markdown. "
-image_file = 'your_image.jpg'
+image_file = 'Screenshot 2026-02-25 022759.png'
 output_path = 'your/output/dir'
 
 # infer(self, tokenizer, prompt='', image_file='', output_path = ' ', base_size = 1024, image_size = 640, crop_mode = True, test_compress = False, save_results = False):
