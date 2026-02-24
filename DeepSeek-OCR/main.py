@@ -18,7 +18,7 @@ tokenizer = AutoTokenizer.from_pretrained(
 
 model = AutoModel.from_pretrained(
     model_name,
-    _attn_implementation='flash_attention_2',
+    _attn_implementation='eager',
     trust_remote_code=True,
     use_safetensors=True,
     local_files_only=True  # Force local files only
